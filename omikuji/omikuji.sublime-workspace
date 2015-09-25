@@ -1,0 +1,321 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"w",
+				"width"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"mg",
+				"margin"
+			],
+			[
+				"bs",
+				"box-shadow"
+			],
+			[
+				"width",
+				"width"
+			],
+			[
+				"bra",
+				"border-radius"
+			],
+			[
+				"tr",
+				"trf	transform"
+			],
+			[
+				"bd",
+				"bdt	border-top"
+			],
+			[
+				"pd",
+				"padding-top"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"bxs",
+				"box-shadow"
+			],
+			[
+				"pos",
+				"pos-a	position: absolute;"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"bdr",
+				"bdr	border-right"
+			],
+			[
+				"bg",
+				"bg	background: #${1:000};"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"p",
+				"pos-s	position: static;"
+			],
+			[
+				"po",
+				"pos-r	position: relative;"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"ta",
+				"ta-c	text-align: center;"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"bb",
+				"border-bottom-style"
+			],
+			[
+				"bo",
+				"border-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pa",
+		"selected_items":
+		[
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"m",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 78.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/user/Documents/tutorial/style.css",
+		"/C/Users/user/Documents/tutorial/guitar.html",
+		"/C/Users/user/Documents/tutorial/guitar.css",
+		"/C/Users/user/Google ドライブ/style.css",
+		"/C/Users/user/Documents/tutorial/今日の内容.mdown",
+		"/C/Users/user/Documents/tutorial/ststem.css",
+		"/C/Users/user/Documents/ripozitori/sample.txt/sample.txt",
+		"/C/Users/user/Desktop/test.html",
+		"/C/Users/user/Desktop/first.html",
+		"/C/Users/user/Desktop/secound.html",
+		"/C/Users/user/Desktop/2nd.html",
+		"/C/Users/user/Desktop/test,md",
+		"/C/Users/user/Documents/tutorial/naiyou.md",
+		"/C/Users/user/Desktop/ｔｅｓｔ０１",
+		"/C/Users/user/Desktop/test02",
+		"/C/Users/user/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/user/Desktop/test01"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"FFF",
+			"500px",
+			"50px",
+			"7px",
+			"\" ",
+			"list",
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "omikuji.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 138.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
