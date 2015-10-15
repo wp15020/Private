@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>パララックス</title>
+	
+	<style>
+	body {height: 3000px;}
+
+	.num {margin: 0;
+			position: fixed;
+			right: 10px;
+			top: 10px;}
+	.box {top: 90px;
+			height: 800px;
+			margin: 0;
+			padding: 0;}
+	#box1 {background: url(banana.jpg) no-repeat;
+			left: 10px;}
+	#box2 {background: url(cycring.jpg) no-repeat;
+			left: 120px;}
+	#box3 {background: url(jetto.jpg) no-repeat;
+			left: 230px;}
+	#box4 {background: url(jump.jpg) no-repeat;
+			left: 340px;}
+	</style>
+	
+</head>
+<body>
+
+	<p class="num">スクロールの値 ｜ <span id="scrollValue">0</span></p>
+	<div id="box1" class="box"></div>
+	<div id="box2" class="box"></div>
+	<div id="box3" class="box"></div>
+	<div id="box4" class="box"></div>
+
+	<script type='text/javascript' src='jquery-1.11.3.min.js'></script>
+	<script src='js/scroll.js'></script>
+	<script>
+	$(document).ready(function(){
+		$(function(){
+			$(window).scroll(function(){
+				var value = $(this).scrollTop();
+			$('#scrollValue').text(value);
+$('#box1').css('background-position', '0' + value + 'px');
+if (value > 800) {
+$('#box2').css('background-position', '0' + (value - 800) + 'px');
+} else {
+$('#box2').css('background-position', '0 0');
+}
+if (value > 1600) {
+$('#box3').css('background-position', '0' + (value - 1600) + 'px');
+} else {
+$('#box3').css('background-position', '0 0');
+}
+if (value > 2400) {
+$('#box4').css('background-position', '0' + (value - 2400) + 'px');
+} else {
+$('#box4').css('background-position', '0 0');
+}
+
+			});
+		});
+	});
+	</script>
+</body>
+</html>
